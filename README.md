@@ -28,12 +28,12 @@ If you are not real familiar with freeRTOS but are used to Arduino you can think
 ... the first lines of code in the "Task()" function are equivalent to the setup() function and will run once when the task is started.
 ... the code inside of the while(1) loop is equivalent to the loop() function in Arduino.
 
-I have added a modified "main.c" to better illstrate this fact..  To use it right-click on "> User" and select Add->Existing File.
-navigate to your copy of my main.c and select it - MRS will ask if you want to overwrite which you will have to select.
+I have added a modified "main.c" to better illustrate this fact..  To use it right-click on "> User" and select Add->Existing File.
+Navigate to your copy of my main.c and select it - MRS will ask if you want to overwrite which you will have to select.
 
 Build and upload....   Done...
 
-.....  I have yet to figure out how to make this into a C++ project....   soon ??
+.....  I have yet to figure out how to make this into a C++ project....   maybe soon ??
 
 
 
