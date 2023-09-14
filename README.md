@@ -32,7 +32,7 @@ I have added a modified "main.c" to better illustrate this fact..  To use it rig
 Navigate to your copy of my main.c and select it - MRS will ask if you want to overwrite which you will have to accept.
 
 Build and upload....   Done...  If you have changed the "LED" defines near the top to reflect your board setup you should get some flashin LEDs.
-( I was using a 203 board that had 2 junpers that needed to be connect to "PXx" pins of my selection.  Other boards may have the LED Pin(s) hardwaired. 
+( I was using a 203 board that had 2 junpers that needed to be connect to "PXx" pins of my selection.  Other boards may have the LED Pin(s) hardwaired. ) 
 
 .....  I have yet to figure out how to make this into a C++ project....   maybe soon ??
 
