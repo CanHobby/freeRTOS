@@ -1,4 +1,4 @@
-# freeRTOS
+# freeRTOS for CH32V RISC-V
 freeRTOS on RISC-V MCU CH32Vxxx
 
 setting up freeRTOS on MRS could not be easier...  They have the template already made up.
@@ -29,7 +29,7 @@ If you are not real familiar with freeRTOS but are used to Arduino you can think
 ... the code inside of the while(1) loop is equivalent to the loop() function in Arduino.
 
 I have added a modified "main.c" to better illustrate this fact..  To use it right-click on "> User" and select Add->Existing File.
-Navigate to your copy of my main.c and select it - MRS will ask if you want to overwrite which you will have to select.
+Navigate to your copy of my main.c and select it - MRS will ask if you want to overwrite which you will have to accept.
 
 Build and upload....   Done...  If you have changed the "LED" defines near the top to reflect your board setup you should get some flashin LEDs.
 ( I was using a 203 board that had 2 junpers that needed to be connect to "PXx" pins of my selection.  Other boards may have the LED Pin(s) hardwaired. 
