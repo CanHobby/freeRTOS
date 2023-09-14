@@ -16,7 +16,7 @@ setting up freeRTOS on MRS could not be easier...  They have the template alread
 
 5).  Select "FreeRTOS" in the Template Type drop down.
 
-6).  Select MCU Family eg. CH32V203 [RISC-V]
+6).  Select MCU Family eg. CH32V203 [RISC-V]  --  Note: the -003 Chip does not offer sufficient memory to do very much with freeRTOS and is not listed.
 
 7).  There should only be 1 option autoselected in the right-hand column.  such as CH32V203-FreeRTOS
 
@@ -31,7 +31,8 @@ If you are not real familiar with freeRTOS but are used to Arduino you can think
 I have added a modified "main.c" to better illustrate this fact..  To use it right-click on "> User" and select Add->Existing File.
 Navigate to your copy of my main.c and select it - MRS will ask if you want to overwrite which you will have to select.
 
-Build and upload....   Done...
+Build and upload....   Done...  If you have changed the "LED" defines near the top to reflect your board setup you should get some flashin LEDs.
+( I was using a 203 board that had 2 junpers that needed to be connect to "PXx" pins of my selection.  Other boards may have the LED Pin(s) hardwaired. 
 
 .....  I have yet to figure out how to make this into a C++ project....   maybe soon ??
 
