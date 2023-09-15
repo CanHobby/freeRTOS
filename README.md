@@ -27,7 +27,7 @@ setting up freeRTOS on MRS could not be easier...  They have the template alread
 If you are not real familiar with freeRTOS but are used to Arduino you can think of a "task" as a separate Arduino sketch.
 ... the first lines of code in the "Task()" function are equivalent to the setup() function and will run once when the task is started.
 ... the code inside of the while(1) loop is equivalent to the loop() function in Arduino.
-... You need to NOTE that you cannot use "blocking" functions in tasks - such as Delay_Ms().  Use vTaskDelay(xxx) instead, which yeils the time to other tasks. Normally the value of xxx can vary from 1 board implementation to another but it seems that MRS has set it to indicate mSec just like the Delay_Ms(xxx) function.
+... You need to NOTE that you cannot use "blocking" functions in tasks - such as Delay_Ms().  Use vTaskDelay(xxx) instead, which yiels the time to other tasks. Normally the units of xxx can vary from 1 board implementation to another but it seems that MRS has set it to indicate mSec just like the Delay_Ms(xxx) function.
 
 I have added a modified "main.c" to better illustrate this fact..  To use it right-click on "> User" and select Add->Existing File.
 Navigate to your copy of my main.c and select it - MRS will ask if you want to overwrite which you will have to accept.
