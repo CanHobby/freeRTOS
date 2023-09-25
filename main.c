@@ -50,7 +50,7 @@ void GPIO_Toggle_INIT(void)
   GPIO_InitStructure.GPIO_Pin = LED_1 | LED_2;
   GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
   GPIO_InitStructure.GPIO_Speed=GPIO_Speed_50MHz;
-  GPIO_Init(GPIOA, &GPIO_InitStructure);
+  GPIO_Init(LED_PORT, &GPIO_InitStructure);
 }
 
 
@@ -133,7 +133,7 @@ int main(void)
 
     while(1)
     {
-        printf("shouldn't run at here!!\n");
+        printf("This shouldn't happen!!\n");
     }
 }
 
