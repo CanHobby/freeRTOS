@@ -35,7 +35,7 @@ Navigate to your copy of my main.c and select it - MRS will ask if you want to o
 Build and upload....   Done...  If you have changed the "LED" defines near the top to reflect your board setup you should get some flashin LEDs.
 ( I was using a 203 board that had 2 junpers that needed to be connect to "PXx" pins of my selection.  Other boards may have the LED Pin(s) hardwired. ) 
 
-.....  I have yet to figure out how to make this into a C++ project....   maybe soon ??
+.....  I have yet to figure out how to make this into a C++ project....   maybe soon ??  ....  Actually I have figutrd how to do it but I didn't take notes and cannot repeat it, or give the detailed steps required.  I do have an entire workspace zipped with a NeoPixel example RTOS based project for the Ch32V203...  Look in my <a href="https://github.com/CanHobby/RISC-V-NeoPixel" target=_blank>NEOpixel repository</a>
 
 
 
